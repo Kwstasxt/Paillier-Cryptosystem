@@ -28,9 +28,7 @@ public class Paillier_Cryptosystem   {
 		 			System.exit(0);
 		 		}
 		 	
-	//	MessageEncryption Mess = new MessageEncryption();
-	//tr	Mess.generateKeyPair();
-	// Kwdikas Poy douleuei pio panw.	
+	
 		
 	
 		Scanner keyboardInt = new Scanner(System.in);
@@ -67,6 +65,7 @@ public class Paillier_Cryptosystem   {
 				BigInteger em_2  = 	Privatekey.getem();	
 				Privatekey privatekey2 = new Privatekey(Lambda_2,em_2);
 				Publickey publickey2 = new Publickey(n2,n2square,g2,bits);
+			    	//Debuging
 				//System.out.printf("So n1 = %d , n2 = %d \n g1 = %d , g2 = %d \n ",n1,n2,g1,g2);  //Info Public keys
 				//System.out.printf("Lambda 1 = %d , M 1 = %d \n Lambda 2 = %d , M 2 = %d \n",Lambda_1,em_1,Lambda_2,em_2);
 				//------------//
