@@ -3,16 +3,13 @@ import java.util.Scanner;
 
 
 public class Paillier_Cryptosystem   {
-	// private BigInteger n,p,q,nSquare;
-	//private final Publickey n;
-	//private int toInt;
+	
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		 
 		 boolean handshake = false;
-	//	 boolean handshake_A = false;  // Sumbolizei oti epilego ton A
-	//	 boolean handshake_B = false;
+	
 		 boolean Computer_A,Computer_B;
 		 BigInteger upperBound = MessageDecryption.getupperBound();	
 		 int bits = 512;
